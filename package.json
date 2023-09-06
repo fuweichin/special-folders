@@ -1,0 +1,29 @@
+{
+  "name": "special-folders",
+  "version": "0.1.0",
+  "description": "To get folder paths of special folders like desktop, downloads, pictures, ...",
+  "keywords": [
+    "user-dir",
+    "special-folder"
+  ],
+  "author": "Fuwei Chin",
+  "license": "MIT",
+  "main": "lib/special-folders.js",
+  "type": "module",
+  "types": "lib/special-folders.d.ts",
+  "scripts": {
+    "init": "node lib/init.js",
+    "postinstall": "node lib/postinstall.js",
+    "test": "jasmine"
+  },
+  "files": [
+    "lib"
+  ],
+  "engines": {
+    "node": ">=18.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fuweichin/special-folders"
+  }
+}
